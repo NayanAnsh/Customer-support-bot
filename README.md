@@ -2,6 +2,7 @@
 
 A **smart, AI-powered customer support chatbot** designed to efficiently handle user queries using **Retrieval-Augmented Generation (RAG)**. It maintains conversational context, retrieves relevant answers from a knowledge base, and intelligently escalates unresolved queries to human agents.
 
+DEMO VIDEO :- https://drive.google.com/file/d/1HFrD09RuR4GxS3H-gUKfd8Fqd3TxzoMp/view?usp=sharing
 ---
 
 ## 🌟 Features
@@ -102,24 +103,27 @@ If no suitable context is found, the bot creates a short summary and escalates t
 ### ✅ Context Validation Prompt
 
 ```python
-CONTEXT_VALIDATION_PROMPT_TEMPLATE = """
-You are an AI assistant that determines if a provided context is relevant for answering a user's question.
+You are a strict AI assistant. Your job is to determine if a general knowledge base article can solve a user's specific problem.
 
-User Question: "{question}"
-Provided Context: "{context}"
+User's specific problem: "{question}"
+General knowledge base article: "{context}"
 
-Does the provided context contain enough information to directly answer the user's question?
-Respond with only "YES" or "NO".
+Does the knowledge base article provide a direct solution to the user's specific problem?
+- If the article is just a general policy and the user has a specific issue (like something is missing, broken, or not working), the answer is NO.
+- If the article gives the exact steps to directly solve the user's problem, the answer is YES.
+
+Respond with only "YES" or "NO"
 """
 ```
 
 ### 📚 Retrieval-Augmented Generation (RAG) Prompt
 
 ```python
-RAG_PROMPT_TEMPLATE = """
+SYSTEM_PROMPT = "You are a helpful and friendly AI customer support assistant. Your primary goal is to answer user questions based on the provided context. Be concise and clear in your responses."
+
 {system_prompt}
 
-Based on the following conversation history and provided context, answer the user's question.
+Based on the following conversation history and the provided context from our knowledge base, please answer the user's question.
 
 **Conversation History:**
 {chat_history}
