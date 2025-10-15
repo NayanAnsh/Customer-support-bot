@@ -1,0 +1,104 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How can I reset my password?",
+      "answer": "Go to the login page and click on 'Forgot Password'. Enter your registered email address to receive a reset link, then follow the instructions to set a new password."
+    },
+    {
+      "id": 2,
+      "question": "How do I update my account information?",
+      "answer": "You can update your profile details by logging into your account, going to 'Profile Settings', and clicking 'Edit Profile'."
+    },
+    {
+      "id": 3,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept credit/debit cards, UPI, PayPal, and net banking for all purchases."
+    },
+    {
+      "id": 4,
+      "question": "How can I track my order?",
+      "answer": "After your order ships, you'll receive a tracking link via email or SMS. You can also track it anytime from the 'My Orders' section in your account."
+    },
+    {
+      "id": 5,
+      "question": "I didn't receive a tracking link. What should I do?",
+      "answer": "If you haven't received a tracking link within 24 hours of placing your order, please check your spam folder or contact customer support for assistance."
+    },
+    {
+      "id": 6,
+      "question": "Why is my order taking longer than expected?",
+      "answer": "Delivery delays can happen due to high demand or courier issues. Please check your order’s tracking page for real-time updates."
+    },
+    {
+      "id": 7,
+      "question": "Can I change my delivery address after placing an order?",
+      "answer": "You can modify your delivery address before the order is shipped by contacting our support team."
+    },
+    {
+      "id": 8,
+      "question": "What are your business hours?",
+      "answer": "Our business hours are Monday to Friday, 9:00 AM to 6:00 PM IST. Support is also available on Saturdays from 10:00 AM to 4:00 PM."
+    },
+    {
+      "id": 9,
+      "question": "Do you provide support on weekends or holidays?",
+      "answer": "Limited support is available on weekends and public holidays. You can still leave a message, and our team will respond on the next working day."
+    },
+    {
+      "id": 10,
+      "question": "What is your return policy?",
+      "answer": "We accept returns within 7 days of delivery if the product is unused and in its original packaging. Refunds are issued after quality inspection."
+    },
+    {
+      "id": 11,
+      "question": "How do I request a return or exchange?",
+      "answer": "Go to 'My Orders', select the item, and click 'Return/Exchange'. Follow the on-screen instructions to schedule a pickup or replacement."
+    },
+    {
+      "id": 12,
+      "question": "When will I get my refund after returning an item?",
+      "answer": "Refunds are typically processed within 5-7 business days after the returned item passes inspection."
+    },
+    {
+      "id": 13,
+      "question": "Are there items that can't be returned?",
+      "answer": "Yes, perishable goods, digital products, and personalized items are non-returnable unless they arrive damaged or defective."
+    },
+    {
+      "id": 14,
+      "question": "How do I contact support?",
+      "answer": "You can reach our support team via email at support@example.com, chat with us through the Help section, or call us at +91-99999-99999 during business hours."
+    },
+    {
+      "id": 15,
+      "question": "Do you have live chat support?",
+      "answer": "Yes, live chat is available on our website during business hours for quick help with any queries."
+    },
+    {
+      "id": 16,
+      "question": "Can I speak directly to a human representative?",
+      "answer": "If the bot cannot resolve your issue, your query will automatically be escalated to a human support representative."
+    },
+    {
+      "id": 17,
+      "question": "What should I do if I receive a damaged or wrong product?",
+      "answer": "Please report the issue within 48 hours of delivery through your order page or by contacting support. We’ll arrange a replacement or refund."
+    },
+    {
+      "id": 18,
+      "question": "Is my personal information secure?",
+      "answer": "Absolutely. We use secure encryption protocols and comply with data protection standards to keep your information safe."
+    },
+    {
+      "id": 19,
+      "question": "Do you offer refunds?",
+      "answer": "Yes, refunds are issued for eligible cancellations or returns according to our Refund Policy."
+    },
+    {
+      "id": 20,
+      "question": "What happens if my query isn't resolved by the bot?",
+      "answer": "If your question can't be answered automatically, it will be escalated to a human support agent for personalized assistance."
+    }
+  ]
+}
