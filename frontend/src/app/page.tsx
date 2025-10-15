@@ -26,7 +26,7 @@ const MarkdownText = ({ text }: { text: string }) => {
     let lastIndex = 0;
     
     // Regex to match **text** or *text* for bold
-    const boldRegex = /\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+    const boldRegex = /\*\*([^*]+)\*\*|\*([^*]+)\*/g; // This is tightly coupled with Gemini 1.5's markdown style
     let match;
     
     while ((match = boldRegex.exec(input)) !== null) {
