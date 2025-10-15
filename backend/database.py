@@ -12,7 +12,6 @@ DATABASE_URL = os.getenv(
     "DATABASE_URL",
     os.environ["DATABASE_URL"]
     # "postgresql://postgres:password@localhost:5432/customer_support"
-    # "postgresql://default:VS8k5FpdJxEy@ep-patient-king-a4xxxf7d-pooler.us-east-1.aws.neon.tech/customerBot?sslmode=require&channel_binding=require"
 )
 
 # Create engine
